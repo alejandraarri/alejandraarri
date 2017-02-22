@@ -1,0 +1,17 @@
+:root {
+  --accent-color: #2EC0B3;
+  --white: #FFFFFF;
+  --lightgray: #CFD5E1;
+  --mediumgray: #7E8890;
+  --darkgray: #303E54;
+
+  --basefont: 'Playfair Display', serif;
+  --headingsfont: 'Libre Baskerville', serif;
+  --quotesfont: 'Nixie One', cursive;
+
+  --headingscolor: var(--darkgray);
+  --basecolor: var(--mediumgray);
+
+  --heroheight: 80vh;
+
+}

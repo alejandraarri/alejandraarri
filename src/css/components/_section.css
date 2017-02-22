@@ -1,0 +1,15 @@
+.section {
+  border-bottom: 1px solid var(--lightgrey);
+  
+  &__header {
+    font-family: var(--headingsfont);
+    color: var(--headingscolor);
+    text-align: center;
+  }
+  &__body {
+    padding-left: 12%;
+    padding-right: 12%;
+    color: var(--basecolor);
+
+  }
+}
