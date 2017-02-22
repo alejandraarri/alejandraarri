@@ -2,13 +2,14 @@
 
   width: 100%;
   background: var(--darkgray);
-  font-family: 'Lato', sans-serif;
+  font-family: var(--basefont);
   text-align: center;
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 500;
   display: table;
 
     &__menu {
+      margin: 0;
     }
 
     &__item {
@@ -16,13 +17,12 @@
       display: inline-block;
       margin-left: 2%;
       margin-right: 2%;
-      padding: 0;
+      padding: 2.5em;
       color: var(--white);
     }
 
     &__link {
-        padding-top: 10px;
-        padding-bottom: 10px;
+        padding-bottom: calc(1.25em - 4px);
         color: var(--white);
         font-size: 2em;
         text-decoration: none;
@@ -30,7 +30,7 @@
 
         &:hover {
           color: var(--accent-color);
-          border-bottom: 3px solid currentColor;
+          border-bottom: 4px solid currentColor;
           /*inset shadow*/
         }
     }

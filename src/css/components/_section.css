@@ -1,15 +1,27 @@
 .section {
-  border-bottom: 1px solid var(--lightgrey);
-  
+  border-bottom: 1px solid var(--lightgray);
+  padding: 4em 0 6em;
+
   &__header {
     font-family: var(--headingsfont);
     color: var(--headingscolor);
     text-align: center;
   }
   &__body {
-    padding-left: 12%;
-    padding-right: 12%;
     color: var(--basecolor);
+    font-size: 1.6em;
+    line-height: 1.6em;
 
+  }
+}
+
+.about {
+  &__avatar {
+    margin: 0em 96px;
+  }
+  &__img {
+    border-radius: 50%;
+    width: 100%;
+    height: auto;
   }
 }

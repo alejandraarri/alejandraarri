@@ -1,6 +1,7 @@
 
 @import "base/normalize";
 @import "base/variables";
+@import "base/utilities";
 @import "base/base";
 @import "components/hero";
 @import "components/navbar";
