@@ -1,15 +1,24 @@
 .navbar {
-
+  display: table;
+  position: absolute;
+  top: 0;
   width: 100%;
-  background: var(--darkgray);
+  background: var(--blockdarkgray);
   font-family: var(--basefont);
   text-align: center;
   text-transform: uppercase;
   font-weight: 500;
-  display: table;
+  z-index: 1;
+
+  &&--fixed {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
 
     &__menu {
       margin: 0;
+      padding: 0;
     }
 
     &__item {

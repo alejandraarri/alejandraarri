@@ -71,8 +71,8 @@
   -webkit-box-flex: 0;
   -ms-flex: 0 0 auto;
   flex: 0 0 auto;
-  padding-right: 0.5rem;
-  padding-left: 0.5rem;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
 }
 
 .col-xs {
@@ -265,7 +265,11 @@
   -ms-flex-order: 1;
   order: 1;
 }
-
+@media only screen and (max-width: 48em - 1px) {
+  .invisible-xs {
+    display: none;
+  }
+}
 @media only screen and (min-width: 48em) {
   .container {
     width: 49rem;

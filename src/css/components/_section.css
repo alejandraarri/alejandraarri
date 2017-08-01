@@ -1,6 +1,15 @@
+article {
+  position: relative;
+  padding-top: 74px;
+}
+
 .section {
   border-bottom: 1px solid var(--lightgray);
   padding: 4em 0 6em;
+
+  &--dark {
+    background: var(--blockdarkgray);
+  }
 
   &__header {
     font-family: var(--headingsfont);
@@ -11,7 +20,38 @@
     color: var(--basecolor);
     font-size: 1.6em;
     line-height: 1.6em;
+  }
+}
 
+.quote {
+  display: inline-block;
+  margin: 1rem 0;
+  font-family: var(--quotesfont);
+  font-size: 2.5rem;
+  line-height: 3rem;
+  font-weight: bold;
+
+  &--left {
+    padding-right: .5em;
+    border-right: 3px solid var(--accent-color);
+    text-align: right;
+  }
+  &--right {
+    padding-left: .5em;
+    border-left: 3px solid var(--accent-color);
+    text-align: left;
+  }
+  &--block {
+    color: var(--white);
+  }
+
+  &__highlight {
+    color: var(--accent-color);
+  }
+  &__author {
+    text-align: right;
+    font-size: 1.3em;
+    color: var(--white);
   }
 }
 
@@ -20,8 +60,90 @@
     margin: 0em 96px;
   }
   &__img {
-    border-radius: 50%;
     width: 100%;
     height: auto;
+    border-radius: 50%;
   }
+}
+
+.resume {
+  &__item {
+
+    &--left,
+    &--right {
+      display: inline-block;
+      vertical-align: top;
+      box-sizing: border-box;
+    }
+
+    &--left {
+      width: 23vw;
+      padding: 1.5rem;
+      text-align: right;
+    }
+
+    &--right {
+      position: relative;
+      width: 59%;
+      border-left: 1px solid var(--lightgray);
+      padding: 1.5rem;
+    }
+  }
+}
+
+.checkpoint {
+  position: absolute;
+  top: 3rem;
+  left: calc(-1.5rem + 16px);
+  width: 16px;
+  height: 16px;
+  background: var(--lightgray);
+  border-radius: 50%;
+}
+
+.skills {
+
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+  &__item {
+    border: 1px solid var(--xlightgray);
+    border-radius: 3px;
+    padding: .5em;
+    margin: 1em;
+  }
+}
+
+.contact {
+
+  &__feedback {
+    display: none;
+  }
+
+  &__input {
+    min-width: 50%;
+    max-width: 700px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: var(--lightgray);
+    border-image: initial;
+    border-radius: 2px;
+    padding: 1em 2em;
+    margin: 12px 0px;
+  }
+
+  &__button {
+    color: var(--white);
+    background-color: var(--accent-color);
+    border-color: transparent;
+    padding: .5em 2.5em;
+    border-radius: 4px;
+    margin: 12px auto;
+  }
+}
+
+.footer {
+  background-color: var(--blockdarkgray);
+  padding-bottom: 4em;
 }

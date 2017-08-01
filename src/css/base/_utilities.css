@@ -2,3 +2,34 @@
   max-width: 980px;
   margin: 0 auto;
 }
+.u-container--narrow {
+  max-width: 500px;
+  margin: 0 auto;
+}
+.u-align-left {
+  text-align: left;
+}
+.u-align-right {
+  text-align: right;
+}
+.u-align-center {
+  text-align: center;
+}
+.u-align-justified {
+  text-align: justified;
+}
+.u-list {
+
+  padding: 0;
+  margin: 0;
+
+  &__item {
+    display: inline-block;
+    list-style: none;
+    margin: 0 .5em;
+
+    &--first {
+      margin-left: 0;
+    }
+  }
+}

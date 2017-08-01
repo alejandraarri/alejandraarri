@@ -3,54 +3,61 @@
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title></title>
+        <title>Alejandra Arri</title>
       	<meta name="robots" content="noindex, nofollow">
       	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
         <link rel="stylesheet" href="css/main.css">
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js" ></script>
+        <script src="js/main.js"></script>
+        <script>
+      	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      	  ga('create', 'UA-55142510-1', 'auto');
+      	  ga('send', 'pageview');
+      	</script>
     </head>
     <body>
       <header class="hero">
-        <div class="hero-logo"></div>
-        <a class="hero-button" href="#about">Get to know me!</a>
+        <div class="hero__bg"></div>
+        <div class="hero__overlay"></div>
+        <div class="hero__logo"></div>
+        <a class="hero__button" href="#about">Get to know me!</a>
       </header>
-      <nav class="navbar">
-        <ul class="navbar__menu">
-          <li class="navbar__item"><a class="navbar__link" href="#about">About me</a></li>
-          <li class="navbar__item"><a class="navbar__link" href="#skills">Skills</a></li>
-          <li class="navbar__item"><a class="navbar__link" href="#resume">Resume</a></li>
-          <li class="navbar__item"><a class="navbar__link" href="#contact">Contact</a></li>
-        </ul>
-      </nav>
       <article>
+          <nav class="navbar">
+            <ul class="navbar__menu">
+              <li class="navbar__item"><a class="navbar__link" href="#about">About me</a></li>
+              <li class="navbar__item"><a class="navbar__link" href="#skills">Skills</a></li>
+              <li class="navbar__item"><a class="navbar__link" href="#resume">Resume</a></li>
+              <li class="navbar__item"><a class="navbar__link" href="#contact">Contact</a></li>
+            </ul>
+          </nav>
           <section id="about" class="section">
             <div class="section__header">
               <h2>About me</h2>
             </div>
-            <div class="section__body">
-              <div class="u-container">
+            <div class="section__body u-container u-align-justified">
                 <div class="row">
-                  <div class="col-xs-4">
-      							<figure class="about__avatar" >
-      								<img class="about__img" src="images/me.png" alt="Alejandra Arri">
-      							</figure>
-      						</div>
-      						<div class="col-xs-8">
-      							<p>Hi! I’m Alejandra Arri and I’m a Telecommunications Engineer who has been working as a Full Stack Java developer for 4 years. I am a geeky girl who tells nerd (and bad) jokes all the time. I also love Web Design. I’m creative, perfectionist and meticulous; the little details are what bring the whole design together.</p>
+      						<div class="col-xs-12">
+      							<p>Hi! I’m Alejandra Arri and I’m a Frontend Developer. I am a geeky girl who tells nerd (and bad) jokes all the time. I also love Web Design. I’m creative, perfectionist and meticulous; the little details are what bring the whole design together.</p>
       						</div>
                 </div>
                 <div class="row">
-                  <div class="col-xs-8">
-                    <p>I used to think that being a good professional meant leaving aside my creative mind and focussing on analytic stuff but over time I’ve realised I’m happier when I can use both points of view. And I’ve found a way to get the most of my coder techy side and my creative side: I’d like to focus on Front-End. It allows me to create, to code (and get the satisfaction when something you were stuck on finally starts working) but also allows me to express myself in a creative way. That’s why it's what I love most.</p>
+                  <div class="col-xs-12 col-sm-8 u-align-right">
+                    <p>I used to think that being a good professional meant leaving aside my creative mind and focussing on analytic stuff but over time I’ve realised I’m happier when I can use both points of view. And I’ve found a way to get the most of my coder techy side and my creative side: I’d like to focus on Front-End. It allows me to create, to code (and get the satisfaction when something you were stuck on finally starts working) but also allows me to express myself in a creative way. That’s why it"s what I love most.</p>
                   </div>
-                  <div class="col-xs-4">
-                    <p class="left">I am so <span class="highlight">creative</span> and perfectionist</p>
+                  <div class="invisible-xs col-sm-4">
+                    <quote class="quote quote--right">I am so <span class="quote__highlight">creative</span> and perfectionist</quote>
                   </div>
                 </div> <!-- row -->
                 <div class="row">
-                  <div class="col-xs-4">
-                    <p class="right">I am <span class="highlight">positive</span> & love working on a <span class="highlight">team</span></p>
+                  <div class="invisible-xs col-sm-5">
+                    <quote class="quote quote--left">I am <span class="quote__highlight">positive</span> & love working on a <span class="quote__highlight">team</span></quote>
                   </div>
-                  <div class="col-xs-8">
+                  <div class="col-xs-12 col-sm-7">
                     <p>I’m very positive, I love working on a team and working together on a common target. I’m also very organised, a planners nerd! I’m a solution finder not a problem solver. Oh, and I love to learn. I believe learning is a continuous process. There is always a skill you can improve, or a new one to learn. And so, I’m part of the SassGirls. We are a group of five girls who like to help each other to improve our developer skills. A very fun way to learn.</p>
                   </div>
                 </div> <!-- row -->
@@ -59,31 +66,118 @@
                     <p>Some of my other interests are fashion, home decor, baking cupcakes and romantic comedies.</p>
                   </div>
                 </div> <!-- row -->
-              </div>
-            </div>  
+            </div>
           </section>
 
           <section id="skills" class="section">
             <div class="section__header">
               <h2>Skills</h2>
             </div>
-            <div class="section__body">
+            <div class="section__body u-container">
+              <p>This is what I love to do/learn</p>
+              <div class="skills u-container--narrow">
+                <div class="skills__item">Web Development</div>
+                <div class="skills__item">Web Design</div>
+                <div class="skills__item">UI</div>
+                <div class="skills__item">UX</div>
+              </div>
 
+              <p>This is what I work with</p>
+              <div class="skills">
+                <div class="skills__item">HTML 5</div>
+                <div class="skills__item">CSS3</div>
+                <div class="skills__item">Sass</div>
+                <div class="skills__item">PostCSS</div>
+                <div class="skills__item">BEMIT</div>
+                <div class="skills__item">JavaScript</div>
+                <div class="skills__item">Git</div>
+                <div class="skills__item">Sketch</div>
+                <div class="skills__item">Illustrator</div>
+              </div>
             </div>
           </section>
 
           <section id="resume" class="section">
             <div class="section__header">
               <h2>Resume</h2>
-            <div>
-            <div class="section__body">
-
+            </div>
+            <div class="section__body u-container">
+              <div class="row">
+                <div class="resume__item">
+                  <div class="resume__item--left">
+                    <p class="date">April 2016 - Today</p>
+                    <p class="location">DIGIBÍS</p>
+                  </div>
+                  <div class="resume__item--right">
+                    <div class="checkpoint"></div>
+                    <h3>Frontend Developer</h3>
+                    <p class="description">As the main Frontend Developer at DIGIBÍS, I design, code and test all of our products.</p>
+                  </div>
+                </div>
+              </div> <!-- row -->
+              <div class="row">
+                <div class="resume__item">
+                  <div class="resume__item--left">
+                    <p class="date">January 2011 - February 2015</p>
+                    <p class="location">Connectis CS</p>
+                  </div>
+                  <div class="resume__item--right">
+                    <div class="checkpoint"></div>
+                    <h3>Full Stack Developer</h3>
+                    <p class="description">I’ve been working for 4 years at Connectis CS as a Full Stack Java developer. For me, it was usual working with the Front-End Stack (HTML5, CSS3, JavaScript) and also using server-side languages and tools (Java EE, Spring Framework, UDA, Oracle). Some of the projects were managed by agile development methodologies (Scrum) so I could learn what it means working on an Agile team. Besides, because of some project requirements, I had to work from the customer’s office and I enjoyed cooperating and working together with another team.</p>
+                  </div>
+                </div>
+              </div> <!-- row -->
+              <div class="row">
+                <div class="resume__item">
+                  <div class="resume__item--left">
+                    <p class="date">2010</p>
+                    <p class="location">Deusto University, Spain</p>
+                  </div>
+                  <div class="resume__item--right">
+                    <div class="checkpoint"></div>
+                    <h3>Ingenio</h3>
+                    <p class="description">I took an entrepreneurship program called “Ingenio” which defends innovation as one of the key concepts for successful business creation and helps to get the knowledge and tools to create and implement innovative ideas.</p>
+                  </div>
+                </div>
+              </div> <!-- row -->
+              <div class="row">
+                <div class="resume__item">
+                  <div class="resume__item--left">
+                    <p class="date">June 2010</p>
+                    <p class="location">School of Languages, Spain</p>
+                  </div>
+                  <div class="resume__item--right">
+                    <div class="checkpoint"></div>
+                    <h3>Cambridge Advanced Exam</h3>
+                    <p class="description">I'm an English freak, I just love it. I'm so glad I did the exam and passed. </p>
+                  </div>
+                </div>
+              </div> <!-- row -->
+              <div class="row">
+                <div class="resume__item">
+                  <div class="resume__item--left">
+                    <p class="date">July 2009 - August 2009</p>
+                    <p class="location">Landeta Academy, Spain</p>
+                  </div>
+                  <div class="resume__item--right">
+                    <div class="checkpoint"></div>
+                    <h3>Software Engineering Tutor</h3>
+                    <p class="description">During summer I taught everything about UML and Software engineering patterns. </p>
+                  </div>
+                </div>
+              </div> <!-- row -->
             </div>
           </section>
 
-          <section class="section">
-            <div class="section__body">
-
+          <section class="section section--dark">
+            <div class="section__body u-container u-align-center">
+                <quote class="quote quote--block">
+                  Create with the <span class="quote__highlight">heart</span>. Build with the <span class="quote__highlight">mind</span>.
+                </quote>
+                <p class="quote__author">
+                  <span>- Criss Jami</span>
+                </p>
             </div>
           </section>
 
@@ -91,12 +185,48 @@
             <div class="section__header">
               <h2>Contact</h2>
             </div>
-            <div class="section__body">
+            <div class="section__body u-container u-align-center">
+              <form id="theForm" class="simform" autocomplete="off" method="POST" name="contactform" action="php/contact-form-handler.php">
+                <div id="contact__main-form">
+                  <p>I"d love to hear from you. Send me a message so we can get in touch!</p>
+                    <div class="contact__inputs">
+                      <input id="name" class="contact__input" name="name" type="text" placeholder="Your Name"/>
+                      <input id="email" class="contact__input" name="email" type="text" placeholder="Email Address"/>
+                      <textarea id="message" class="contact__input" name="message" placeholder="Tell Me!!"></textarea>
+                    </div>
+                    <input id="send-button" class="contact__button" type="button" value="Send"></input>
+                </div>
+
+                <div id="contact__feedback" class="contact__feedback">
+                  <p id="final-message"></p>
+                  <input id="back-button" type="button" value="Try again"></input>
+                </div>
+              </form>
 
             </div>
           </section>
       </article>
       <footer>
+        <section id="footer" class="section footer">
+          <div class="section__body u-container">
+            <div class="row">
+              <div class="col-xs-12 col-sm-8">
+                <p>This site was designed and created by Alejandra Arri with the following technologies:</p>
+      					<ul class="u-list">
+      						<li class="u-list__item u-list__item--first">HTML5</li>
+      						<li class="u-list__item">CSS3</li>
+      						<li class="u-list__item">JavaScript</li>
+      						<li class="u-list__item">Sass</li>
+      						<li class="u-list__item">NodeJS</li>
+      						<li class="u-list__item">Gulp</li>
+      						<li class="u-list__item">Sketch</ul>
+      					</div>
+                <div class="col-xs-12 col-sm-4">
+                  <img src="images/logo_256.png" alt="Alejandra Arri">
+                </div>
+              </div>
+            </div>
+          </div>
       </footer>
     </body>
 </html>

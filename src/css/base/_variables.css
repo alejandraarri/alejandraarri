@@ -1,17 +1,19 @@
 :root {
   --accent-color: #2EC0B3;
   --white: #FFFFFF;
+  --xlightgray: #EEEEEE;
   --lightgray: #CFD5E1;
   --mediumgray: #7E8890;
-  --darkgray: #303E54;
+  --typedarkgray: #303E54;
+  --blockdarkgray: #273548;
 
   --basefont: 'Raleway', sans-serif;
   --headingsfont: 'Libre Baskerville', serif;
   --quotesfont: 'Nixie One', cursive;
 
-  --headingscolor: var(--darkgray);
+  --headingscolor: var(--typedarkgray);
   --basecolor: var(--mediumgray);
 
-  --heroheight: 80vh;
+  --heroheight: 100vh;
 
 }
