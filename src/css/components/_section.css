@@ -85,6 +85,7 @@ article {
     &--right {
       position: relative;
       width: 59%;
+      max-width: 560px;
       border-left: 1px solid var(--lightgray);
       padding: 1.5rem;
     }
