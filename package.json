@@ -2,11 +2,9 @@
   "name": "alejandraarri",
   "description": "My portfolio",
   "version": "1.0.0",
-  "maintainers": [
-    {
-      "name": "Alejandra Arri"
-    }
-  ],
+  "author": {
+    "name": "Alejandra Arri"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/alejandraarri/alejandraarri.git"
@@ -21,6 +19,7 @@
     "gulp-notify": "^2.2.0",
     "gulp-plumber": "^1.1.0",
     "gulp-postcss": "^6.1.0",
+    "gulp-uglify": "^3.0.0",
     "postcss-cssnext": "^2.9.0",
     "precss": "^1.4.0",
     "run-sequence": "^1.1.5"
