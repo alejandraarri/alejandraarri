@@ -68,6 +68,7 @@ article {
 
 .resume {
   &__item {
+    margin: 0 auto;
 
     &--left,
     &--right {
