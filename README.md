@@ -4,7 +4,7 @@ I'm a Frontend Engineer passionate about building great pixel perfect frontend e
 
 - 🔭 I’m currently working on all the different frontend projects available at Apto.
 - 🌱 I’m currently learning javascript animations.
-- 💬 Ask me about CSS architecture, BEM, design systems, CSS animations and any front-end related topic.  
+- 💬 Ask me about CSS architecture, BEM, design systems, CSS animations and any frontend related topic.  
 - 😄 Pronouns: (she/her)
 <br />
 
