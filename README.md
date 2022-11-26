@@ -1,8 +1,8 @@
 # Hi there 👋
 
-I'm a Front-End Engineer passionate about building great pixel perfect frontend experiences with good architecture, testing and best practices. I’m creative, perfectionist and meticulous. 
+I'm a Frontend Engineer passionate about building great pixel perfect frontend experiences with good architecture, testing and best practices. I’m creative, perfectionist and meticulous. 
 
-- 🔭 I’m currently working on all the different front-end projects available at Apto.
+- 🔭 I’m currently working on all the different frontend projects available at Apto.
 - 🌱 I’m currently learning javascript animations.
 - 💬 Ask me about CSS architecture, BEM, design systems, CSS animations and any front-end related topic.  
 - 😄 Pronouns: (she/her)
